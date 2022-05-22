@@ -6,7 +6,7 @@ $contatoFac       = 'https://www.facebook.com/3301NNY';
 $contatoLinkedin  = 'https://www.linkedin.com/in/h%C3%A1llan/';
 $contatoSkype     = 'https://join.skype.com/invite/DeIl7tg4Ohxd';
 $contatoGithub    = 'https://github.com/Hallan-Lima';
-$contatoEmail     = 'hallansrl@hotmail.com';
+$contatoEmail     = 'mailto:hallansrl@hotmail.com';
 
 ?>
 <!DOCTYPE html>
@@ -88,7 +88,15 @@ $contatoEmail     = 'hallansrl@hotmail.com';
                 <a href="<?php echo $contatoTel; ?>"
                   class="u-active-palette-4-base u-align-left u-border-0 u-btn u-btn-round u-button-style u-custom-font u-font-raleway u-hover-palette-4-base u-palette-1-base u-radius-50 u-text-body-alt-color u-btn-1">
                   Entrar em contato</a>
-              </div>
+                  <div style="margin-top: 10px;">
+                    <a href="<?php echo $contatoTel; ?>" target="_blank" rel="whatsapp"><img src="https://img.icons8.com/nolan/32/whatsapp.png"/></a>
+                    <a href="<?php echo $contatoLinkedin; ?>" target="_blank" rel="linkedin"><img src="https://img.icons8.com/nolan/32/linkedin-circled.png"/></a>
+                    <a href="<?php echo $contatoFac; ?>" target="_blank" rel="facebook"><img src="https://img.icons8.com/nolan/32/facebook.png"/></a>
+                    <a href="<?php echo $contatoSkype; ?>" target="_blank" rel="skype"><img src="https://img.icons8.com/nolan/32/skype.png"/></a>
+                    <a href="<?php echo $contatoGithub; ?>" target="_blank" rel="github"><img src="https://img.icons8.com/nolan/32/github.png"/></a>
+                    <a href="<?php echo $contatoEmail; ?>" target="_blank" rel="email"><img src="https://img.icons8.com/nolan/32/email-open.png"/></a>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
@@ -96,7 +104,7 @@ $contatoEmail     = 'hallansrl@hotmail.com';
     </div>
   </section>
   <iframe src="template/session-1.php" frameborder="0" width="100%" height="800px"></iframe>
-  <section class="u-align-center-xs u-clearfix u-section-4" src="" id="carousel_46bf">
+  <!-- <section class="u-align-center-xs u-clearfix u-section-4" src="" id="carousel_46bf">
     <div class="u-clearfix u-sheet u-valign-middle-xl u-sheet-1">
       <img class="u-expanded-width-md u-image u-image-contain u-image-1" src="img/Untitled-1-min.jpg">
       <div
@@ -107,7 +115,7 @@ $contatoEmail     = 'hallansrl@hotmail.com';
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <footer></footer>
 </body>
