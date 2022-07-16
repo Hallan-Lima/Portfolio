@@ -10,8 +10,11 @@ $qtImg = 7;
     <script class="u-script" type="text/javascript" src="../js/nicepage.js" defer=""></script>
 </head>
 
-<body class="u-body u-overlap u-overlap-contrast u-xl-mode">
+<div class="u-body u-overlap u-overlap-contrast u-xl-mode">
     <section class="u-clearfix u-palette-1-light-1 u-section-5" id="carousel_287b">
+        <div>
+            <h1 class="u-text u-align-center u-text-1">Projetos Desenvolvidos</h1>
+        </div>
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-on-hover u-gallery-1">
                 <div class="u-gallery-inner u-gallery-inner-1">
@@ -34,4 +37,5 @@ $qtImg = 7;
             </div>
         </div>
     </section>
-</body>
+</div>
+<script></script>

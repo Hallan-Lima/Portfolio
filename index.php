@@ -29,9 +29,36 @@ $contatoEmail     = 'mailto:hallansrl@hotmail.com';
   <link id="u-page-google-font" rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
   <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/style-dio.css">
 </head>
 <body class="u-body u-xl-mode">
-  <section class="u-align-left u-clearfix u-image u-section-1">
+  <div class="header">
+      <div class="checkbox-container">
+          <div class="checkbox-wrapper">
+              <input type="checkbox" id="toggle">
+              <label class="checkbox" for="toggle">
+                  <div class="trace"></div>
+                  <div class="trace"></div>
+                  <div class="trace"></div>
+              </label>
+              <div class="menu"></div>
+              <nav class="menu-items">
+                  <ul>
+                      <li>
+                          <a href="#home">Home</a>
+                      </li>
+                      <li>
+                          <a href="#sobre">Sobre</a>
+                      </li>
+                      <li>
+                          <a href="#projetos">Projetos</a>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+  </div>
+  <section id="home" class="u-align-left u-clearfix u-image u-section-1">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
       <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-gutter-0 u-layout">
@@ -59,7 +86,7 @@ $contatoEmail     = 'mailto:hallansrl@hotmail.com';
     </div>
   </section>
 
-  <section class="u-clearfix u-white u-section-8" id="sec-d1be">
+  <section id="sobre" class="u-clearfix u-white u-section-8" id="sec-d1be">
     <div class="u-clearfix u-sheet u-sheet-1">
       <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
@@ -103,7 +130,7 @@ $contatoEmail     = 'mailto:hallansrl@hotmail.com';
       </div>
     </div>
   </section>
-  <iframe src="template/session-1.php" frameborder="0" width="100%" height="800px"></iframe>
+  <iframe id="projetos" src="template/session-1.php" frameborder="0" width="100%" height="900px"></iframe>
   <!-- <section class="u-align-center-xs u-clearfix u-section-4" src="" id="carousel_46bf">
     <div class="u-clearfix u-sheet u-valign-middle-xl u-sheet-1">
       <img class="u-expanded-width-md u-image u-image-contain u-image-1" src="img/Untitled-1-min.jpg">
@@ -120,6 +147,5 @@ $contatoEmail     = 'mailto:hallansrl@hotmail.com';
   <footer></footer>
 
 </body>
-<script>loadingShow();</script>
 
 </html>

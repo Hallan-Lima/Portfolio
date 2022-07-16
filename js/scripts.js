@@ -27,3 +27,6 @@ function loadingRemove() {
         loadings[0].remove();
     }
 }
+
+
+
