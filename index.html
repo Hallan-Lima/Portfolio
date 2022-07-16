@@ -10,6 +10,7 @@
   <!-- estrutura desing modelo -->
   <link rel="stylesheet" href="css/nicepage.css" media="screen">
   <link rel="stylesheet" href="css/modelo-2.css" media="screen">
+  <link rel="stylesheet" href="css/style-dio.css" media="screen">
   <script class="u-script" type="text/javascript" src="js/jquery.js"></script>
   <script class="u-script" type="text/javascript" src="js/nicepage.js"></script>
   <link id="u-theme-google-font" rel="stylesheet"
@@ -20,18 +21,43 @@
 </head>
 
 <script>
-var contatoTel       = 'http://api.whatsapp.com/send?1=pt_BR&phone=55019997202594';
-var contatoFac       = 'https://www.facebook.com/3301NNY';
-var contatoLinkedin  = 'https://www.linkedin.com/in/h%C3%A1llan/';
-var contatoSkype     = 'https://join.skype.com/invite/DeIl7tg4Ohxd';
-var contatoGithub    = 'https://github.com/Hallan-Lima';
-var contatoEmail     = 'mailto:hallansrl@hotmail.com';
-
-
+  var contatoTel       = 'http://api.whatsapp.com/send?1=pt_BR&phone=55019997202594';
+  var contatoFac       = 'https://www.facebook.com/3301NNY';
+  var contatoLinkedin  = 'https://www.linkedin.com/in/h%C3%A1llan/';
+  var contatoSkype     = 'https://join.skype.com/invite/DeIl7tg4Ohxd';
+  var contatoGithub    = 'https://github.com/Hallan-Lima';
+  var contatoEmail     = 'mailto:hallansrl@hotmail.com';
 </script>
 
 <body class="u-body u-xl-mode">
-  <section class="u-align-left u-clearfix u-image u-section-1">
+
+  <div class="header">
+    <div class="checkbox-container">
+        <div class="checkbox-wrapper">
+            <input type="checkbox" id="toggle">
+            <label class="checkbox" for="toggle">
+                <div class="trace"></div>
+                <div class="trace"></div>
+                <div class="trace"></div>
+            </label>
+            <div class="menu"></div>
+            <nav class="menu-items">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#projetos">Projetos</a>
+                    </li>
+                </ul>
+            </nav>
+        </input>
+    </div>
+</div>
+  <section id="home" class="u-align-left u-clearfix u-image u-section-1">
     <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
       <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-gutter-0 u-layout">
@@ -59,7 +85,7 @@ var contatoEmail     = 'mailto:hallansrl@hotmail.com';
     </div>
   </section>
 
-  <section class="u-clearfix u-white u-section-8" id="sec-d1be">
+  <section id="sobre" class="u-clearfix u-white u-section-8" id="sec-d1be">
     <div class="u-clearfix u-sheet u-sheet-1">
       <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
         <div class="u-layout">
@@ -103,7 +129,7 @@ var contatoEmail     = 'mailto:hallansrl@hotmail.com';
       </div>
     </div>
   </section>
-  <iframe src="template/session-1.html" frameborder="0" width="100%" height="800px"></iframe>
+  <iframe id="projetos" src="template/session-1.html" frameborder="0" width="100%" height="800px"></iframe>
   <!-- <section class="u-align-center-xs u-clearfix u-section-4" src="" id="carousel_46bf">
     <div class="u-clearfix u-sheet u-valign-middle-xl u-sheet-1">
       <img class="u-expanded-width-md u-image u-image-contain u-image-1" src="img/Untitled-1-min.jpg">
